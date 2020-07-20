@@ -1,0 +1,29 @@
+﻿  Set.cpp
+c:\cs32\homework4\set\set\set\set.h(105): error C2678: binary '==': no operator found which takes a left-hand operand of type 'ItemType' (or there is no acceptable conversion)
+          with
+          [
+              ItemType=Coord
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(284): note: could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(278): note: or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(272): note: or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(266): note: or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(331): note: or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(326): note: or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(321): note: or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\cs32\homework4\set\set\set\set.h(105): note: while trying to match the argument list '(ItemType, const ItemType)'
+          with
+          [
+              ItemType=Coord
+          ]
+  c:\cs32\homework4\set\set\set\set.h(101): note: while compiling class template member function 'bool Set<Coord>::insert(const ItemType &)'
+          with
+          [
+              ItemType=Coord
+          ]
+  c:\cs32\homework4\set\set\set\set.cpp(26): note: see reference to function template instantiation 'bool Set<Coord>::insert(const ItemType &)' being compiled
+          with
+          [
+              ItemType=Coord
+          ]
+  c:\cs32\homework4\set\set\set\set.cpp(25): note: see reference to class template instantiation 'Set<Coord>' being compiled

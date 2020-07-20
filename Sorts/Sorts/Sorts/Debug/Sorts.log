@@ -1,0 +1,5 @@
+﻿  sorts.cpp
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(183): warning C4018: '<': signed/unsigned mismatch
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(301): warning C4018: '<': signed/unsigned mismatch
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(312): warning C4018: '<': signed/unsigned mismatch
+  Sorts.vcxproj -> C:\CS32\Homework4\Sorts\Sorts\Debug\Sorts.exe

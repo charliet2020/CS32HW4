@@ -1,0 +1,10 @@
+﻿  sorts.cpp
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(182): warning C4018: '<': signed/unsigned mismatch
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(301): warning C4018: '<': signed/unsigned mismatch
+c:\cs32\homework4\sorts\sorts\sorts\sorts.cpp(312): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  2 of 413 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Sorts.vcxproj -> C:\CS32\Homework4\Sorts\Sorts\Release\Sorts.exe
